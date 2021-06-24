@@ -15,7 +15,7 @@ const SingUp = () => {
         lastName: "", email: "", password: "",confirmPassword: "", userName: ""
     })
     // console.log('=======errors',errors)
-    console.log('=======form outside========',form)
+    //console.log('=======form outside========',form)
     const onChange = (name, value) => {
 
         errors[name]
